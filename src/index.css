@@ -109,7 +109,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.5s;
+  transition: all 2s;
 }
 button:hover {
   border-width: 3px;
