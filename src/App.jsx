@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       < Header />
-      <Main />
+      <Footer />
     </div>
   )
 
@@ -19,16 +19,40 @@ function App() {
     return (
       <header>
         <h1>Axel Vazquez Garcia</h1>
-        <h2>Sobre mi</h2>
+        <img className='perfil' src='./src/assets/imagen.jpg' alt='imagen de perfil'/>
       </header>
     )
   }
 
-  function Main(){
+  function MainPrincipal(){
     return(
       <main>
-        <h2>esto es un main</h2>
+        <h1><button className='tec'>Mis tecnologias</button></h1>
+        <div className='contenedores'>
+          <div className='contenedor1'>informacion</div>
+          <div className='contenedor2'>imagenes</div>
+        </div>
       </main>
+    )
+  }
+
+  function MainAlternativo(){
+    return(
+      <main>
+        <h1><button className='tec'>Mis tecnologias</button></h1>
+        <div className='contenedores'>
+          <div className='contenedor1'>informacion</div>
+          <div className='contenedor2'>imagenes</div>
+        </div>
+      </main>
+    )
+  }
+
+  function Footer() {
+    return(
+      <footer>
+        <h2>esto es un footer</h2>
+      </footer>
     )
   }
 }
