@@ -70,9 +70,22 @@ main{
       display: flex;
       justify-content: space-around;
       border: 3px red solid;
+      margin-left: 2%;
       width: 95%;
-      margin-left: 4%;
       padding: 5px;
+
+        .contenedor1{
+          display: flex;
+          justify-content: space-around;
+          border: 3px red solid;
+          width: 95%;
+          padding: 5px;
+
+            .front, .back{
+              border: 3px red solid;
+              padding: 5px;
+            }
+        }
     }
 
     h1{
