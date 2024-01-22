@@ -73,27 +73,33 @@ main{
       margin-left: 2%;
       width: 95%;
       padding: 5px;
+    }
 
-        .contenedor1{
+    .habilidades{
+      display: flex;
+      justify-content: space-around;
+      border: 3px red solid;
+      margin-left: 2%;
+      width: 95%;
+      padding: 5px;
+
+        .front, .back{
           display: flex;
-          justify-content: space-around;
-          border: 3px red solid;
-          width: 95%;
-          padding: 5px;
+          flex-direction: column;
+          width: 45%;
 
-            .front, .back{
-              border: 3px red solid;
-              padding: 5px;
-            }
+          h2, p{
+            text-align: center;
+          }
         }
     }
 
     h1{
       text-align: center;
+    }
 
-        .tec{
-          color: aliceblue;
-        }
+    h4{
+      text-align: center;
     }
 }
 
@@ -120,15 +126,5 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
-  transition: all 2s;
-}
-button:hover {
-  border-width: 3px;
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }

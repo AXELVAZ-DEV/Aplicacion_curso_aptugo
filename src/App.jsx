@@ -38,7 +38,7 @@ function App() {
         <main onClick={mostrarMain} className='info'>
           <h1><button className='tec'>Sobre mi</button></h1>
           <div className='contenedores'>
-            <div className='sobre mi'>
+            <div className='sobremi'>
               <p>Soy Axel un estudiante de programacion 100% autodidacta</p>
               <h2>Pasatiempos</h2>
               <p>A parte de la programacion, soy un gran aficionado de las computadoras <br />
@@ -46,9 +46,16 @@ function App() {
               </p>
               <p>Decidi estudiar programacion despues de inscribirme en un curso de <br />
                computacion en donde me enseñaron las bases del desarrollo web</p>
-               <h4>Al hacer clic en "Sobre mi" se podran visualizar mis habilidades</h4>
+            </div>
+            <div className='sobremi2'>
+              <h2>Experiencia</h2>
+              <p>Actualmente tengo mas experiencia en el Frontend que en el Backend</p>
+              <p>Esto se debe a que he trabajado mas en proyecto que no requieren del <br />
+              mismo, sin embargo, me quiero centrar mas en el Backend</p>
+              <p>Llevo 2 años estudiando programacion por mi cuenta</p>
             </div>
           </div>
+          <h4>Al hacer clic en "sobre mi" se mostraran mis habilidades</h4>
         </main>
       )
     }
@@ -57,13 +64,17 @@ function App() {
       return(
         <main className='info'>
           <h1><button onClick={mostrarMain} className='tec'>Mis habilidades</button></h1>
-          <div className='contenedores'>
-            <div className='contenedor1'>
-              <div className='front'>
-                <h2>Frontend</h2>
+          <div className='habilidades'>
+            <div className='front'>
+              <h2>Frontend</h2>
+              <div className='img'>
+                <p>aqui van las imagenes</p>
               </div>
-              <div className='back'>
-                <h2>Backend</h2>
+            </div>
+            <div className='back'>
+              <h2>Backend</h2>
+              <div className='img'>
+                <p>aqui van las imagenes</p>
               </div>
             </div>
           </div>
