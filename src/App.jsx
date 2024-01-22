@@ -41,8 +41,9 @@ function App() {
             <div className='sobremi'>
               <p>Soy Axel un estudiante de programacion 100% autodidacta</p>
               <h2>Pasatiempos</h2>
-              <p>A parte de la programacion, soy un gran aficionado de las computadoras <br />
-               y los videojuegos pasando mucho de mi tiempo libre en estos ultimos
+              <p>A parte de la programacion, soy un gran aficionado de <br /> 
+              las computadoras y los videojuegos pasando mucho de mi tiempo<br />
+               libre en estos ultimos
               </p>
               <p>Decidi estudiar programacion despues de inscribirme en un curso de <br />
                computacion en donde me enseñaron las bases del desarrollo web</p>
@@ -51,8 +52,9 @@ function App() {
               <h2>Experiencia</h2>
               <p>Actualmente tengo mas experiencia en el Frontend que en el Backend</p>
               <p>Esto se debe a que he trabajado mas en proyecto que no requieren del <br />
-              mismo, sin embargo, me quiero centrar mas en el Backend</p>
-              <p>Llevo 2 años estudiando programacion por mi cuenta</p>
+              mismo, sin embargo, me quiero guiar mas al Backend</p>
+              <p>Llevo 2 años estudiando programacion por mi cuenta en todo tipo de <br/>
+              fuentes de informacion que pueda encontrar en internet</p>
             </div>
           </div>
           <h4>Al hacer clic en "sobre mi" se mostraran mis habilidades</h4>
@@ -93,7 +95,7 @@ function App() {
   function Footer() {
     return(
       <footer>
-        <h2>esto es un footer</h2>
+        <h2>Actualmente no tengo ningun proyecto relevante por mostrar</h2>
       </footer>
     )
   }

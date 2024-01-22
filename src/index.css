@@ -1,3 +1,7 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -14,31 +18,33 @@ body {
   place-items: center;
   min-height: 100vh;
   flex-direction: column;
-  border: 3px red solid;
+  background-color: #EDF2F4;
 }
 
 #root{
-  border: 3px red solid;
   width: 100%;
   height: auto;
-  padding: 2px;
+  padding: 10px;
 }
 
 header{
   display: flex;
   justify-content: space-between;
-  border: 3px red solid;
+  border-radius: 12px;
   width: 90%;
   margin-left: 4%;
   margin-bottom: 3%;
-  padding: 5px;
+  padding: 7px;
   align-items: center;
+  box-shadow: 5px 5px 20px 10px #8D99AE;
 
   h1{
     font-size: 3.2em;
     line-height: 1.1;
     letter-spacing: 2px;
     transition: all 1s;
+    color: #2B2D42;
+    margin-left: 3%;
   }
   
   h1:hover{
@@ -60,16 +66,21 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 3px red solid;
+  border-radius: 12px;
   width: 90%;
   margin-left: 4%;
   padding: 5px;
   margin-bottom: 3%;
+  box-shadow: 2px 2px 20px 10px #8D99AE;
+  color: #2B2D42;
+
+    .info{
+      box-shadow: none;
+    }
 
     .contenedores{
       display: flex;
-      justify-content: space-around;
-      border: 3px red solid;
+      justify-content: space-between;
       margin-left: 2%;
       width: 95%;
       padding: 5px;
@@ -78,7 +89,6 @@ main{
     .habilidades{
       display: flex;
       justify-content: space-around;
-      border: 3px red solid;
       margin-left: 2%;
       width: 95%;
       padding: 5px;
@@ -96,21 +106,26 @@ main{
 
     h1{
       text-align: center;
+      color: #2B2D42;
     }
 
     h4{
       text-align: center;
+      color: #D90429;
     }
 }
 
 footer{
   display: flex;
-  justify-content: space-between;
-  border: 3px red solid;
+  flex-direction: column;
   width: 90%;
   margin-left: 4%;
   padding: 5px;
   margin-bottom: 3%;
+
+    h2{
+      text-align: center;
+    }
 }
 
 .perfil{
@@ -127,4 +142,6 @@ button {
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
+  color: #2B2D42;
+  background-color: #EDF2F4;
 }
