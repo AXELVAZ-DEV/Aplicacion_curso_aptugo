@@ -94,9 +94,9 @@ function App() {
 
   function Footer() {
     return(
-      <footer>
+      <section className='proyectos'>
         <h2>Actualmente no tengo ningun proyecto relevante por mostrar</h2>
-      </footer>
+      </section>
     )
   }
 }
